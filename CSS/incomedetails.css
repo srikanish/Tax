@@ -1,0 +1,187 @@
+body {
+    background-color: #ebeaea;
+}
+.container { 
+    max-width: 1000px; 
+    margin-top: 50px; 
+    padding: 20px; 
+
+}
+.container h1 {
+    color: rgb(104, 104, 104);
+}
+/* Personal Details and Profile Picture Layout */
+.Personal {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    max-width: 1000px;
+    margin-top: 50px;
+    background: #ebeaea;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px 10px rgba(0, 0, 0, 0.1);
+}
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+/* Save Button */
+button {
+    border: none;
+    outline: none;
+    background-color: #6c5ce7;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 5px;
+    transition: all ease 0.2s;
+    box-shadow: 0px 5px 0px 0px #a29bfe;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #689fb2; 
+    box-shadow: 0.1em 0.1em 0.2em 0.1em #7b52b9;
+}
+button:active {
+    transform: translateY(5px);
+    box-shadow: 0px 0px 0px 0px #a29bfe;
+}
+.Personal1 {
+    align-items: center;
+    max-width: 1000px;
+    margin-top: 50px;
+    background: #ebeaea;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px 10px rgba(0, 0, 0, 0.1);
+}
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+.additional-inputs {
+    margin-top: 20px;
+}
+
+.additional-inputs .mb-3 {
+    margin-bottom: 20px;
+}
+.additional-inputs label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+.additional-inputs .form-control {
+    background-color: #fff; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+.additional-inputs .form-control:focus {
+    border-color: #6c5ce7; 
+    outline: none;
+    box-shadow: 0 0 5px rgba(108, 92, 231, 0.5); 
+}
+/* General styling for the tabs */
+.tab-navigation {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #6c5ce7; 
+}
+.tab-navigation .tab-item {
+    padding: 15px 30px;
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.3s ease;
+}
+.tab-navigation .tab-item:hover {
+    color: #6c5ce7; 
+}
+.tab-navigation .tab-item.active {
+    color: #6c5ce7;
+}
+.tab-navigation .tab-item.active::after {
+    content: '';
+    position: absolute;
+    bottom: -2px; 
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #6c5ce7; 
+    border-radius: 2px;
+}
+/* Styling for the tab content */
+.tab-content {
+    display: none;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+.tab-content.active {
+    display: block;
+}
+#income.tab-content,
+#deductions.tab-content {
+    margin-top: 0;
+    padding-top: 0; 
+}
+#income .Personal1,
+#deductions .Personal1 {
+    background: none;
+    box-shadow: none;
+    padding: 0;
+    border-radius: 0;
+}
+#income .Personal1 h4,
+#deductions .Personal1 h4 {
+    padding-top: 25px;
+    margin-bottom: 20px;
+}
+
+/* Ensure consistent styling for input fields */
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* Style for the "Next" button */
+.btn-container button {
+    border: none;
+    outline: none;
+    background-color: #6c5ce7;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 5px;
+    transition: all ease 0.2s;
+    box-shadow: 0px 5px 0px 0px #a29bfe;
+    cursor: pointer;
+}
+
+.btn-container button:hover {
+    background-color: #689fb2;
+    box-shadow: 0.1em 0.1em 0.2em 0.1em #7b52b9;
+}
+
+.btn-container button:active {
+    transform: translateY(5px);
+    box-shadow: 0px 0px 0px 0px #a29bfe;
+}
