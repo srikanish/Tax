@@ -91,9 +91,8 @@ Modify dashboard.php to display additional user details
 
 Improve tax calculation logic in save_tax_calculation.php
 
-**
 
-💡 Ideas for Improvement**
+**💡 Ideas for Improvement**
 
 🔹 Implement email notifications for tax filing reminders
 
