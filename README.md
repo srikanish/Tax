@@ -3,6 +3,8 @@
 
 A responsive and efficient tax calculation and filing system built using PHP, MySQL, HTML, CSS, and JavaScript.
 
+
+
 **🌟 Features**
 
 ✅ User authentication (Register, Login, Logout)
@@ -16,9 +18,14 @@ A responsive and efficient tax calculation and filing system built using PHP, My
 
 ✅ Responsive UI with a well-structured design
 
+
+
 **🚀 Live Demo**
 
 Check it out here: [Your Live Demo Link]
+
+
+
 
 **📂 Project Structure**
 
@@ -27,8 +34,6 @@ Check it out here: [Your Live Demo Link]
 📄 index.html – Homepage
 
 📄 output.php – Displays tax calculation result
-
-
 
 📌 PHP
 
@@ -48,20 +53,13 @@ Check it out here: [Your Live Demo Link]
 
 📄 connect.php – Database connection file
 
-
-
-
 📌 CSS
 
 📄 style.css – Styles for the website
 
-
-
 📌 JavaScript (JS)
 
 📄 dashboard.js – JavaScript for dashboard functionality
-
-
 
 📌 Uploads
 
@@ -79,6 +77,7 @@ Check it out here: [Your Live Demo Link]
 
 
 
+
 **🎨 How to Customize**
 
 Update CSS to change the color scheme and UI design
@@ -90,6 +89,7 @@ Modify dashboard.php to display additional user details
 
 
 Improve tax calculation logic in save_tax_calculation.php
+
 
 
 **💡 Ideas for Improvement**
